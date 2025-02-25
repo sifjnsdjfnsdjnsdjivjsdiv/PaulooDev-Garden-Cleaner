@@ -1,0 +1,45 @@
+Config.Languages = { 
+    ['hu'] = {
+        ["BLIP_NAME"] = "Kertész Munka",
+        ["BLIP_HOUSE"] = "Kert",
+        ["TARGET_STARTJOB"] = "Munka megkezdése/befejezése",
+        ["TARGET_PUTONCLOTHES"] = "Munka ruha felvétele",
+        ["TAKE_OUT_CAR"] = "[E] kocsi kivételéhez",
+        ["TAKE_IN_CAR"] = "[E] kocsi visszaadásához",
+        ["PARK_THE_CAR"] = "[E] kocsi leparkolásához",
+        ["TARGET_START_CHARVEST"] = "Gyökerek kihúzása",
+        ["TARGET_START_BINBAGS"] = "Szemét felszedés",
+        ["TARGET_PUTINBIN"] = "Kukába dobás",
+        ["TARGET_START_LEAFS"] = "Levelek elfújása",
+        ["INFO_DONE"] = "Kész feladatok: ",
+        ["INFO_FIRST_FINISH_JOB"] = "Ahoz hogy befejzd a munkát először mindent meg kell csinálj!",
+        ["INFO_BIN"] = "Keress egy közeli munkát a szemét kidobásához",
+        ["INFO_DONE_JOB"] = "Kész a munka! Most vidd vissza a kocsit",
+        ["JOB_FINISH_GIVE_ME_THE_FUCKING_MONEY"] = "Kaptál: $",
+        -- TALK --
+        ['TALK_MIKE_GOTOPLACE'] = "[Mike] Menj el a kerthez a térképeden és, ha odaértél mondom a feladatot.",
+        ['TALK_MIKE_INPLACE'] = "[Mike] Na végre! Most menj oda a sárga jelekhez!",
+    },
+    
+    ['en'] = {
+        ["BLIP_NAME"] = "Garden Cleaner",
+        ["BLIP_HOUSE"] = "Garden",
+        ["TARGET_STARTJOB"] = "Duty on/off",
+        ["TARGET_PUTONCLOTHES"] = "Job clothing",
+        ["TAKE_OUT_CAR"] = "[E] to take out job car",
+        ["TAKE_IN_CAR"] = "[E] to return car",
+        ["PARK_THE_CAR"] = "[E] to park car",
+        ["TARGET_START_CHARVEST"] = "Rip out the grass",
+        ["TARGET_START_BINBAGS"] = "Pick up the trash",
+        ["TARGET_PUTINBIN"] = "Throw it in the trash can",
+        ["TARGET_START_LEAFS"] = "Blow away leaves",
+        ["INFO_DONE"] = "Tasks done: ",
+        ["INFO_FIRST_FINISH_JOB"] = "You first need to complete all tasks!",
+        ["INFO_BIN"] = "Look for a close trash can to throw out the trash",
+        ["INFO_DONE_JOB"] = "Task is done! Now come back to me",
+        ["JOB_FINISH_GIVE_ME_THE_FUCKING_MONEY"] = "You earned: $",
+        -- TALK --
+        ['TALK_MIKE_GOTOPLACE'] = "[Mike] Go to the garden marked on your map.",
+        ['TALK_MIKE_INPLACE'] = "[Mike] Finally! Now go to the marked points",
+    }
+}
